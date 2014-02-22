@@ -1,0 +1,11 @@
+{
+  "name": "chrome-extension-browseraction-icon-rotation",
+  "version": "0.1",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "page": "bg.html"
+  }
+}
