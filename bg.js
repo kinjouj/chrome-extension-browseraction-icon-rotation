@@ -30,7 +30,7 @@ function drawIconAtRotation() {
 }
 
 function animateFlip() {
-  rotation += 1/animationFrames;
+  rotation += 1 / animationFrames;
   drawIconAtRotation();
 
   if (rotation <= 1) {
